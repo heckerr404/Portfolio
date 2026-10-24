@@ -56,7 +56,7 @@ export default function About() {
           <div className="md:col-span-8 lg:col-span-5 space-y-8">
             {/* HELLO Headline */}
             <div>
-              <h2 className="text-6xl sm:text-7xl lg:text-8xl font-display font-black text-[#111111] tracking-tighter uppercase leading-[0.88] mb-4">
+              <h2 className="text-6xl sm:text-7xl lg:text-8xl font-archivo text-[#111111] tracking-normal uppercase leading-[0.9] mb-4">
                 HELLO
               </h2>
 

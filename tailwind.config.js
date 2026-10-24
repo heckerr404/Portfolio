@@ -34,6 +34,7 @@ export default {
       },
       fontFamily: {
         'display': ['"Anton"', '"Space Grotesk"', 'sans-serif'],
+        'archivo': ['"Archivo Black"', '"Space Grotesk"', 'sans-serif'],
         'grotesk': ['"Space Grotesk"', 'system-ui', 'sans-serif'],
         'body': ['"Inter"', 'system-ui', 'sans-serif'],
         'hand': ['"Caveat"', 'cursive'],
