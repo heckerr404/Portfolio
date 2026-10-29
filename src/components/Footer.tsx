@@ -1,6 +1,6 @@
-import React from 'react';
-
 export default function Footer() {
+  const year = new Date().getFullYear();
+
   const handleBackToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
@@ -14,13 +14,13 @@ export default function Footer() {
             R
           </div>
           <span className="text-[#C9C9C4]">
-            © {new Date().getFullYear()} RITESH YADAV • 2026 VISUAL FOLIO
+            © {year} RITESH YADAV • {year} VISUAL FOLIO
           </span>
         </div>
 
         {/* Center: Editorial Colophon */}
         <span className="text-[#72726E] text-center text-[11px] hidden sm:inline">
-          EDITORIAL GRAPHIC DESIGN PORTFOLIO • BUILT FOR CREATIVE IMPACT
+          EDITORIAL GRAPHIC DESIGN PORTFOLIO • EST. {year}
         </span>
 
         {/* Right: Back to top trigger */}
